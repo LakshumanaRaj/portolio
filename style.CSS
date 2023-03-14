@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: border-box;
+}
+
+body
+{
+    height: 100vh;
+    background-image: url(../image5.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%t;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 10px 20px;
+}
+
+body
+{
+    color: white;
+    font-size: 30px;
+}
+
+nav ul li a
+{
+    color: rgb(106, 106, 182);
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: white;
+    transition: 1s;
+}
+
+.btn
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.content
+{
+    top: 50;
+    left: 50;
+    position: absolute;
+    transform: translate(50%,50%);
+}
+h3{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+h2{
+    color: white;
+}
+h4{
+    color: red;
+}
+.subscribe form
+{
+     width: 400px;
+     position: relative;
+}
+.subscribe form input:first-child
+{
+    display: inline-block;
+    width: 100px;
+    padding: 15px 120px 13px 14px;
+    border: 3px solid red;
+    border-radius: 40px;
+}
+
+.subscribe form input:last-child
+{
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-color: red;
+    color: red;
+    top: 7px;
+    right: 7px;
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: 0px 0px 20px red;
+}
+.about_me
+{
+    width: 100px;
+    padding: 100px 50px;
+    background-color: black;
+}
+
+.about_me img
+{
+    height: auto;
+    width: 400px;
+}
+.about_content
+{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
